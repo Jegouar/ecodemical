@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Syncopate:wght@700&display=swap');
+
+nav, button {
+    color: white;
+    background-color: teal;
+    font-family: 'Syncopate', sans-serif;
+}
+
+header {
+    width: 80vw;
+    margin: 20vw auto 10vw;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        margin-top: 15vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header {
+        margin-top: 10vw;
+    }
+}
+
+header div {
+    display: inline-block;
+    font-family: 'Syncopate', sans-serif;
+    background-image: linear-gradient(red, yellow);
+}
+
+header div:last-of-type {
+    margin-top: 5vw;
+}
+
+#E1, #c2 {
+    font-size: 44.5vw;
+    line-height: 39.5vw;
+}
+
+#o3, #d4 {
+    font-size: 39vw;
+    line-height: 32vw;
+}
+
+#e5, #m6 {
+    font-size: 33vw;
+    line-height: 26vw;
+}
+
+#i7, #c8 {
+    font-size: 60.5vw;
+    line-height: 53.5vw;
+}
+
+#a9, #l0 {
+    font-size: 44.5vw;
+    line-height: 37.5vw;
+}
+
+@media only screen and (min-width: 768px) {
+    #E1, #c2, #o3 {
+        font-size: 28vw;
+        line-height: 23vw;
+    }
+    #d4, #e5, #m6 {
+        font-size: 23.5vw;
+        line-height: 18.5vw;
+    }
+    #i7, #c8, #a9, #l0 {
+        font-size: 25vw;
+        line-height: 20vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #E1, #c2, #o3, #d4, #e5 {
+        font-size: 16.5vw;
+        line-height: 13.5vw;
+    }
+    #m6, #i7, #c8, #a9, #l0 {
+        font-size: 17.5vw;
+        line-height: 14.5vw;
+    }
+}
+
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: teal;
+}
+
+
+
