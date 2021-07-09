@@ -386,12 +386,90 @@ header > div:last-of-type h2 {
     }
 }
 
+#services button, h1 {
+    font-size: 4.625vw;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    #services button, h1 {
+        font-size: 2.875vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #services button, h1 {
+        font-size: 2vw;
+    }
+}
+
 h1 {
     font-family: 'Syncopate', sans-serif;
     color: teal;
 }
 
-h2, h4 {
+h2 {
     font-family: 'Roboto', sans-serif;
+    font-size: 5.55vw;
     color: teal;
+}
+
+@media only screen and (min-width: 768px) {
+    h2 {
+        font-size: 3.45vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    h2 {
+        font-size: 2.4vw;
+    }
+}
+
+.tab-content {
+    padding: 5.55vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .tab-content {
+        padding: 3.45vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .tab-content {
+        padding: 2.4vw;
+    }
+}
+
+.tab-content li, p, form label {
+    font-size: 3.7vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .tab-content li, p, form label {
+        font-size: 2.3vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .tab-content li, p, form label {
+        font-size: 1.6vw;
+    }
+}
+
+form input[type=text], form textarea {
+    font-size: 4.625vw;
+}
+
+@media only screen and (min-width: 768px) {
+    form input[type=text], form textarea {
+        font-size: 2.875vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    form input[type=text], form textarea {
+        font-size: 2vw;
+    }
 }
