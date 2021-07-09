@@ -1,95 +1,397 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Syncopate:wght@700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 nav, button {
     color: white;
     background-color: teal;
     font-family: 'Syncopate', sans-serif;
 }
 
-header {
-    width: 80vw;
-    margin: 20vw auto 10vw;
+body {
+    width: 90vw;
+    margin: 0 5vw;
 }
 
 @media only screen and (min-width: 768px) {
-    header {
-        margin-top: 15vw;
+    body {
+        width: 80vw;
+        margin: 0 10vw;
     }
 }
 
-@media only screen and (min-width: 1200px) {
+header {
+    margin: 96px auto 0;
+}
+
+@media only screen and (min-width: 283px) {
     header {
-        margin-top: 10vw;
+        margin: 56px auto 0;
     }
 }
 
 header div {
     display: inline-block;
-    font-family: 'Syncopate', sans-serif;
-    background-image: linear-gradient(red, yellow);
-}
-
-header div:last-of-type {
-    margin-top: 5vw;
-}
-
-#E1, #c2 {
-    font-size: 44.5vw;
-    line-height: 39.5vw;
-}
-
-#o3, #d4 {
-    font-size: 39vw;
-    line-height: 32vw;
-}
-
-#e5, #m6 {
-    font-size: 33vw;
-    line-height: 26vw;
-}
-
-#i7, #c8 {
-    font-size: 60.5vw;
-    line-height: 53.5vw;
-}
-
-#a9, #l0 {
-    font-size: 44.5vw;
-    line-height: 37.5vw;
+    height: 39vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
 }
 
 @media only screen and (min-width: 768px) {
-    #E1, #c2, #o3 {
-        font-size: 28vw;
-        line-height: 23vw;
-    }
-    #d4, #e5, #m6 {
-        font-size: 23.5vw;
-        line-height: 18.5vw;
-    }
-    #i7, #c8, #a9, #l0 {
-        font-size: 25vw;
-        line-height: 20vw;
+    header div {
+        height: 24vw;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    #E1, #c2, #o3, #d4, #e5 {
-        font-size: 16.5vw;
-        line-height: 13.5vw;
-    }
-    #m6, #i7, #c8, #a9, #l0 {
-        font-size: 17.5vw;
-        line-height: 14.5vw;
+    header div {
+        height: 17vw;
     }
 }
 
+header div div {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 37vw;
+    height: 39vw;
+    color: black;
+    background-color: white;
+    mix-blend-mode: screen;
+}
 
+@media only screen and (min-width: 768px) {
+    header div div {
+        font-size: 23vw;
+        height: 24vw;
+    }
+}
 
-h2 {
-    font-family: 'Roboto', sans-serif;
+@media only screen and (min-width: 1200px) {
+    header div div {
+        font-size: 16vw;
+        height: 17vw;
+    }
+}
+
+#e1 {
+    background-image: url('../images/car-exhaust.jpg');
+    animation: ceorps 60s infinite;
+    margin-left: 9.02vw;
+}
+
+@media only screen and (min-width: 768px) {
+    #e1 {
+        margin-left: 5.08vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #e1 {
+        margin-left: 0;
+    }
+}
+
+@keyframes ceorps {
+    0% {background-image: url('../images/car-exhaust.jpg');}
+    13.33% {background-image: url('../images/car-exhaust.jpg');}
+    16.33% {background-image: url('../images/oil-rig.jpg');}
+    46.66% {background-image: url('../images/oil-rig.jpg');}
+    49.66% {background-image: url('../images/power-station.jpg');}
+    80% {background-image: url('../images/power-station.jpg');}
+    83% {background-image: url('../images/car-exhaust.jpg');}
+    100% {background-image: url('../images/car-exhaust.jpg');}
+}
+
+#c2 {
+    background-image: url('../images/african-elephants.jpg');
+    animation: aehwwr 60s infinite;
+    margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #c2 {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #c2 {
+        margin-left: 0;
+    }
+}
+
+@keyframes aehwwr {
+    0% {background-image: url('../images/african-elephants.jpg');}
+    26.66% {background-image: url('../images/african-elephants.jpg');}
+    29.66% {background-image: url('../images/humpback-whale.jpg');}
+    60% {background-image: url('../images/humpback-whale.jpg');}
+    63% {background-image: url('../images/white-rhino.jpg');}
+    93.33% {background-image: url('../images/white-rhino.jpg');}
+    96.33% {background-image: url('../images/african-elephants.jpg');}
+    100% {background-image: url('../images/african-elephants.jpg');}
+}
+
+#o3 {
+    background-image: url('../images/coral-reef.jpg');
+    animation: cregmtf 60s infinite;
+    margin-left: 6.36vw;
+}
+
+@media only screen and (min-width: 768px) {
+    #o3 {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #o3 {
+        margin-left: 0;
+    }
+}
+
+@keyframes cregmtf {
+    0% {background-image: url('../images/coral-reef.jpg');}
+    6.66% {background-image: url('../images/coral-reef.jpg');}
+    9.66% {background-image: url('../images/eqi-glacier.jpg');}
+    40% {background-image: url('../images/eqi-glacier.jpg');}
+    43% {background-image: url('../images/mother-tree-forest.jpg');}
+    73.33% {background-image: url('../images/mother-tree-forest.jpg');}
+    76.33% {background-image: url('../images/coral-reef.jpg');}
+    100% {background-image: url('../images/coral-reef.jpg');}
+}
+
+#d4 {
+    background-image: url('../images/bald-eagle.jpg');
+    animation: bemcmb 60s infinite;
+    margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #d4 {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #d4 {
+        margin-left: 0;
+    }
+}
+
+@keyframes bemcmb {
+    0% {background-image: url('../images/bald-eagle.jpg');}
+    3% {background-image: url('../images/male-capercaillie.jpg');}
+    33.33% {background-image: url('../images/male-capercaillie.jpg');}
+    36.33% {background-image: url('../images/monarch-butterflies.jpg');}
+    66.66% {background-image: url('../images/monarch-butterflies.jpg');}
+    69.66% {background-image: url('../images/bald-eagle.jpg');}
+    100% {background-image: url('../images/bald-eagle.jpg');}
+}
+
+#e5 {
+    background-image: url('../images/solar-panels.jpg');
+    animation: spwewt 60s infinite;
+    margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #e5 {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #e5 {
+        margin-left: 0;
+    }
+}
+
+@keyframes spwewt {
+    0% {background-image: url('../images/solar-panels.jpg');}
+    20% {background-image: url('../images/solar-panels.jpg');}
+    23% {background-image: url('../images/wave-energy.jpg');}
+    53.33% {background-image: url('../images/wave-energy.jpg');}
+    56.33% {background-image: url('../images/wind-turbines.jpg');}
+    86.66% {background-image: url('../images/wind-turbines.jpg');}
+    89.66% {background-image: url('../images/solar-panels.jpg');}
+    100% {background-image: url('../images/solar-panels.jpg');}
+}
+
+#m6 {
+    background-image: url('../images/beef-cattle.jpg');
+    animation: bcchia 60s infinite;
+    margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #m6 {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #m6 {
+        margin-left: 3.15vw;
+    }
+}
+
+@keyframes bcchia {
+    0% {background-image: url('../images/beef-cattle.jpg');}
+    3.33% {background-image: url('../images/cropped/beef-cattle.jpg');}
+    6.33% {background-image: url('../images/combine-harvester.jpg');}
+    36.66% {background-image: url('../images/combine-harvester.jpg');}
+    39.66% {background-image: url('../images/indian-agriculture.jpg');}
+    70% {background-image: url('../images/indian-agriculture.jpg');}
+    73% {background-image: url('../images/beef-cattle.jpg');}
+    100% {background-image: url('../images/beef-cattle.jpg');}
+}
+
+#i7 {
+    background-image: url('../images/airliner-queue.jpg');
+    animation: aqhpstw 60s infinite;
+    margin-left: 19.69vw;
+}
+
+@media only screen and (min-width: 768px) {
+    #i7 {
+        margin-left: 3.18vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #i7 {
+        margin-left: 0;
+    }
+}
+
+@keyframes aqhpstw {
+    0% {background-image: url('../images/airliner-queue.jpg');}
+    23.33% {background-image: url('../images/airliner-queue.jpg');}
+    26.33% {background-image: url('../images/human-pollution.jpg');}
+    56.66% {background-image: url('../images/human-pollution.jpg');}
+    59.66% {background-image: url('../images/sewage-treatment-works.jpg');}
+    90% {background-image: url('../images/sewage-treatment-works.jpg');}
+    93% {background-image: url('../images/airliner-queue.jpg');}
+    100% {background-image: url('../images/airliner-queue.jpg');}
+}
+
+#c8 {
+    background-image: url('../images/palm-oil-deforestation.jpg');
+    animation: podshvfff 60s infinite;
+    margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #c8 {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #c8 {
+        margin-left: 0;
+    }
+}
+
+@keyframes podshvfff {
+    0% {background-image: url('../images/palm-oil-deforestation.jpg');}
+    16.66% {background-image: url('../images/palm-oil-deforestation.jpg');}
+    19.66% {background-image: url('../images/sunflowers-habitat.jpg');}
+    50% {background-image: url('../images/sunflowers-habitat.jpg');}
+    53% {background-image: url('../images/view-from-forest-floor.jpg');}
+    83.33% {background-image: url('../images/view-from-forest-floor.jpg');}
+    86.33% {background-image: url('../images/palm-oil-deforestation.jpg');}
+    100% {background-image: url('../images/palm-oil-deforestation.jpg');}
+}
+
+#a9 {
+    background-image: url('../images/giant-panda.jpg');
+    animation: gpstto 60s infinite;
+    margin-left: 10.89vw;
+}
+
+@media only screen and (min-width: 768px) {
+    #a9 {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #a9 {
+        margin-left: 0;
+    }
+}
+
+@keyframes gpstto {
+    0% {background-image: url('../images/giant-panda.jpg');}
+    10% {background-image: url('../images/giant-panda.jpg');}
+    13% {background-image: url('../images/sumatran-tiger.jpg');}
+    43.33% {background-image: url('../images/sumatran-tiger.jpg');}
+    46.33% {background-image: url('../images/tapanuli-orangutan.jpg');}
+    76.66% {background-image: url('../images/tapanuli-orangutan.jpg');}
+    79.66% {background-image: url('../images/giant-panda.jpg');}
+    100% {background-image: url('../images/giant-panda.jpg');}
+}
+
+#l0 {
+    background-image: url('../images/avocet.jpg');
+    animation: ahbp 60s infinite;
+    margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    #l0 {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #l0 {
+        margin-left: 0;
+    }
+}
+
+@keyframes ahbp {
+    0% {background-image: url('../images/avocet.jpg');}
+    30% {background-image: url('../images/avocet.jpg');}
+    33% {background-image: url('../images/honey-bees.jpg');}
+    63.33% {background-image: url('../images/honey-bees.jpg');}
+    66.33% {background-image: url('../images/puffins.jpg');}
+    96.66% {background-image: url('../images/puffins.jpg');}
+    100% {background-image: url('../images/avocet.jpg');}
+}
+
+header > div:last-of-type {
+    margin: 56px auto;
+}
+
+header > div:last-of-type h2 {
+    font-size: 7.4vw;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    header > div:last-of-type h2 {
+        font-size: 4.6vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header > div:last-of-type h2 {
+        font-size: 3.2vw;
+    }
+}
+
+h1 {
+    font-family: 'Syncopate', sans-serif;
     color: teal;
 }
 
-
-
+h2, h4 {
+    font-family: 'Roboto', sans-serif;
+    color: teal;
+}
